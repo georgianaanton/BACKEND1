@@ -30,6 +30,7 @@ public abstract class BaseEntity<T extends BaseEntity<T, ID>, ID extends BaseVal
     public ID getId() {
         return id;
     }
+    //test
 
     @Override
     public boolean equals(Object obj) {
